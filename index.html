@@ -3,110 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hosting Minecraft Xịn</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Hosting Minecraft - Trang chủ</title>
+  <link rel="stylesheet" href="style-index.css">
   <script src="https://kit.fontawesome.com/a2d9d5c6b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  <!-- Header Hero -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1>Thuê Hosting Minecraft Đẳng Cấp</h1>
-      <p>Máy chủ mạnh mẽ, tốc độ cao, bảo mật tuyệt đối.<br>Giá rẻ, hỗ trợ 24/7, sẵn sàng phục vụ bạn!</p>
-      <a href="#hosting-packages" class="btn-primary">Xem Gói Hosting</a>
-    </div>
-    <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" alt="Hosting Illustration" class="hero-img">
-  </header>
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <h1 class="logo"><i class="fas fa-cloud"></i> Hosting Minecraft</h1>
+    <nav class="nav">
+      <a href="#">Trang Chủ</a>
+      <a href="#shop">Gói Hosting</a>
+      <a href="#about">Giới Thiệu</a>
+      <a href="#testimonials">Đánh Giá</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- Hosting Packages (Mới thêm) -->
-  <section id="hosting-packages" class="shop-grid">
-    <h2 class="section-title">Gói Hosting Của Chúng Tôi</h2>
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <h2>Giải pháp Hosting Minecraft Siêu Xịn</h2>
+    <p>Ổn định - Bảo mật - Giá rẻ - Hỗ trợ 24/7</p>
+    <a href="#shop" class="btn-primary">Khám Phá Ngay</a>
+  </div>
+</section>
 
-    <div class="shop-item">
+<!-- Shop Section -->
+<section id="shop" class="shop">
+  <h2 class="section-title">Các Gói Hosting</h2>
+  <div class="shop-grid">
+    <a href="basic-hosting.html" class="shop-item">
       <i class="fas fa-server icon-basic"></i>
-      <h2>Basic Hosting</h2>
-      <p>Giải pháp hosting giá rẻ, phù hợp cho server nhỏ và vừa.</p>
-      <span class="price">89.000đ / tháng</span>
-      <a href="#" class="btn-shop">Mua Ngay</a>
-    </div>
+      <h3>Basic Hosting</h3>
+      <p>Giá rẻ, tốc độ ổn định cho server nhỏ.</p>
+    </a>
 
-    <div class="shop-item">
+    <a href="basic-hosting2.html" class="shop-item">
       <i class="fas fa-hdd icon-basic2"></i>
-      <h2>Basic Hosting 2</h2>
-      <p>Phiên bản nâng cấp nhẹ với tài nguyên nhiều hơn và tốc độ tối ưu.</p>
-      <span class="price">119.000đ / tháng</span>
-      <a href="#" class="btn-shop">Mua Ngay</a>
-    </div>
+      <h3>Basic Hosting 2</h3>
+      <p>Gói nâng cấp mạnh hơn, hiệu suất cao.</p>
+    </a>
 
-    <div class="shop-item">
+    <a href="premium-hosting.html" class="shop-item">
       <i class="fas fa-crown icon-premium"></i>
-      <h2>Premium Hosting</h2>
-      <p>Hiệu suất cực cao, bảo mật tối đa, lý tưởng cho server lớn.</p>
-      <span class="price">249.000đ / tháng</span>
-      <a href="#" class="btn-shop">Mua Ngay</a>
-    </div>
+      <h3>Premium Hosting</h3>
+      <p>Hosting cao cấp, tốc độ cực mạnh!</p>
+    </a>
 
-    <div class="shop-item">
+    <a href="maychu-vatly.html" class="shop-item">
       <i class="fas fa-database icon-physical"></i>
-      <h2>Máy Chủ Vật Lý</h2>
-      <p>Thuê server riêng full cấu hình mạnh mẽ, quyền kiểm soát tối đa.</p>
-      <span class="price">3.000.000đ / tháng</span>
-      <a href="#" class="btn-shop">Mua Ngay</a>
-    </div>
+      <h3>Máy Chủ Vật Lý</h3>
+      <p>Server vật lý riêng biệt, cực mạnh mẽ.</p>
+    </a>
 
-    <div class="shop-item">
+    <a href="maychu-vps.html" class="shop-item">
       <i class="fas fa-cloud icon-vps"></i>
-      <h2>Máy Chủ VPS</h2>
-      <p>VPS SSD siêu nhanh, dễ dàng mở rộng tài nguyên theo nhu cầu.</p>
-      <span class="price">499.000đ / tháng</span>
-      <a href="#" class="btn-shop">Mua Ngay</a>
-    </div>
+      <h3>Máy Chủ VPS</h3>
+      <p>Máy chủ ảo mạnh mẽ, dễ dàng quản lý.</p>
+    </a>
 
-    <div class="shop-item">
+    <a href="tenmien.html" class="shop-item">
       <i class="fas fa-globe icon-domain"></i>
-      <h2>Tên Miền</h2>
-      <p>Đăng ký tên miền đẹp, chuyên nghiệp, tăng độ tin cậy cho website.</p>
-      <span class="price">300.000đ / năm</span>
-      <a href="#" class="btn-shop">Mua Ngay</a>
-    </div>
-  </section>
+      <h3>Tên Miền</h3>
+      <p>Đăng ký tên miền nhanh chóng, giá tốt.</p>
+    </a>
+  </div>
+</section>
 
-  <!-- About Us Section -->
-  <section class="about">
-    <div class="about-content">
-      <img src="https://img.freepik.com/free-vector/server-room-cloud-storage-technology_107791-17715.jpg" alt="About Image">
-      <div class="about-text">
-        <h2>Chúng Tôi Là Ai?</h2>
-        <p>Với hơn 5 năm kinh nghiệm trong lĩnh vực cung cấp dịch vụ hosting Minecraft, chúng tôi cam kết mang đến giải pháp tối ưu nhất với giá thành hợp lý. Khách hàng là ưu tiên số 1 của chúng tôi.</p>
-        <p>Hãy trải nghiệm sự khác biệt cùng dịch vụ hosting đỉnh cao ngay hôm nay!</p>
-      </div>
+<!-- About Section -->
+<section id="about" class="about">
+  <div class="container about-content">
+    <div class="about-text">
+      <h2>Về Chúng Tôi</h2>
+      <p>Chúng tôi cung cấp giải pháp hosting Minecraft chuyên nghiệp với giá cả hợp lý, tốc độ cực cao, bảo mật tuyệt đối, cam kết hỗ trợ 24/7.</p>
+      <p>Hàng nghìn khách hàng tin dùng mỗi ngày!</p>
     </div>
-  </section>
+    <img src="https://images.unsplash.com/photo-1591696205602-2b6a5fa11b86" alt="Hosting Image">
+  </div>
+</section>
 
-  <!-- Testimonials Section -->
-  <section class="testimonials">
-    <h2>Khách Hàng Nói Gì?</h2>
-    <div class="testimonial-grid">
-      <div class="testimonial-item">
-        <p>"Server siêu mượt, hỗ trợ cực nhanh, mình cực kỳ hài lòng!"</p>
-        <h4>- Minh Trí</h4>
-      </div>
-      <div class="testimonial-item">
-        <p>"Giá quá hợp lý mà chất lượng lại rất tốt, highly recommend!"</p>
-        <h4>- Ngọc Mai</h4>
-      </div>
-      <div class="testimonial-item">
-        <p>"Đã thuê 3 tháng và vẫn đang gắn bó, dịch vụ rất uy tín!"</p>
-        <h4>- Anh Quân</h4>
-      </div>
+<!-- Testimonials -->
+<section id="testimonials" class="testimonials">
+  <h2>Khách Hàng Nói Gì?</h2>
+  <div class="testimonial-grid">
+    <div class="testimonial-item">
+      <p>Hosting siêu ổn định, giá hợp lý, support nhanh!</p>
+      <h4>- Nam Nguyễn</h4>
     </div>
-  </section>
+    <div class="testimonial-item">
+      <p>Server Minecraft chạy mượt, mình cực kỳ hài lòng!</p>
+      <h4>- Trần Khánh</h4>
+    </div>
+    <div class="testimonial-item">
+      <p>Thiết kế dễ dùng, mua tên miền cũng nhanh gọn lẹ.</p>
+      <h4>- Hoài Anh</h4>
+    </div>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="shop-footer">
-    <p>© 2025 Hosting Minecraft | Thiết kế bởi ChatGPT</p>
-  </footer>
+<!-- Footer -->
+<footer class="shop-footer">
+  <p>© 2025 Hosting Minecraft | All rights reserved.</p>
+</footer>
 
 </body>
 </html>
