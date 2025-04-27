@@ -1,0 +1,103 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e6f0ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.header i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+/* About Package */
+.about-package {
+  background: #f0f8ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-package h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-package ul {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-package li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Price */
+.price {
+  background: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.price h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.price-tag {
+  font-size: 36px;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn-buy {
+  display: inline-block;
+  background: #ff4d4f;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-buy:hover {
+  background: #e60023;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #bbb;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
